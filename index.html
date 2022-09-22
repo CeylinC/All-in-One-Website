@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllInPage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="long">
+            <div id="logo">LOGO</div>
+            <i class="fa-solid fa-bars" id="hamburger" onclick="blockNavbarDisplay();"></i>
+            <nav>
+                <ul>
+                    <li><a href="#hero-img">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#sss">SSS</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="short">
+            <i class="fa-solid fa-xmark" onclick="stickyNavbarDisplay()"></i>
+            <ul>
+                <li><a href="#hero-img" onclick="stickyNavbarDisplay()">Home</a></li>
+                <li><a href="#about" onclick="stickyNavbarDisplay()">About Us</a></li>
+                <li><a href="#sss" onclick="stickyNavbarDisplay()">SSS</a></li>
+                <li><a href="#contact" onclick="stickyNavbarDisplay()">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="hero-img">
+        <div class="hero-text">
+            <h1>All In One Website</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique at quidem, eius dolorem earum ea.
+            </p>
+            <button><a href="#">Get Started</a></button>
+        </div>
+    </section>
+    <section id="features">
+        <div class="card">
+            <div class="icon"><span>A</span></div>
+            <h1>Card A</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic ratione, repellendus molestias atque
+                quaerat consequuntur voluptas labore iure? Sapiente ducimus ex veritatis. Illum nobis corporis nostrum
+                illo maiores consectetur. Similique?
+            </p>
+        </div>
+        <div class="card">
+            <div class="icon"><span>B</span></div>
+            <h1>Card B</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic ratione, repellendus molestias atque
+                quaerat consequuntur voluptas labore iure? Sapiente ducimus ex veritatis. Illum nobis corporis nostrum
+                illo maiores consectetur. Similique?
+            </p>
+        </div>
+        <div class="card">
+            <div class="icon"><span>C</span></div>
+            <h1>Card C</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic ratione, repellendus molestias atque
+                quaerat consequuntur voluptas labore iure? Sapiente ducimus ex veritatis. Illum nobis corporis nostrum
+                illo maiores consectetur. Similique?
+            </p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="img"></div>
+        <div class="content">
+            <h1>About Us<div class="line"></div>
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ea iure, eos labore deserunt est aperiam
+                quibusdam ab repudiandae ipsa, asperiores, omnis obcaecati reprehenderit voluptate ipsum voluptatum
+                debitis totam sequi maiores nulla velit corrupti sed fuga. Animi eius perspiciatis ducimus, ex quae
+                quisquam, atque odio nihil nemo magnam modi est illum cupiditate mollitia nostrum omnis dolor dolorem
+                facere harum, aliquid minima sit! Animi sed quos eos nesciunt impedit obcaecati cumque?</p>
+        </div>
+    </section>
+    <section id="sss">
+        <h1>SSS<div class="line"></div>
+        </h1>
+        <div class="container">
+            <div class="card">
+                <img src="/img/card.jpg">
+                <div class="card-text">
+                    <h2>Question?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore eaque nobis architecto delectus
+                        voluptatem nesciunt?</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/img/card.jpg">
+                <div class="card-text">
+                    <h2>Question?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore eaque nobis architecto delectus
+                        voluptatem nesciunt?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact Us<div class="line"></div>
+        </h1>
+        <div class="contact">
+            <h3>Send Message</h3>
+            <div class="input"><input type="text" placeholder="Name"></div>
+            <div class="input"><input type="text" placeholder="Email"></div>
+            <div class="input"><textarea rows="5" placeholder="Text"></textarea></div>
+            <div class="input"><input type="submit" value="Send"></input></div>
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <div class="copyright">
+                <p>© 2022 Logo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptas.</p>
+            </div>
+            <div class="social">
+                <h3>Follow Us</h3>
+                <div class="link">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const blockNavbar = document.querySelector(".short");
+        function blockNavbarDisplay(){
+            blockNavbar.style.display = "block";
+        }
+        function stickyNavbarDisplay(){
+            blockNavbar.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
